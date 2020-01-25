@@ -62,21 +62,51 @@
 
           <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Главная</a></li>
-              <li><a href="about.html">О нас</a></li>
-              <li><a href="teachers.html">Teachers</a></li>
-              <li><a href="events.html">Events</a></li>
               <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">О нас</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="courses.html">Courses</a></li>
-                  <li class="active"><a href="course-single.html">Course Single</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="news.html">News</a></li>
+                  <li><a href="about.html">Общие сведения</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li><a href="newspaper.html">Школьная газета</a></li>
+                  <li><a href="achievements.html">Достижения</a></li>
                 </ul>
               </li>
-              <li><a href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Деятельность</a>
+                <ul class="dropdown-menu">
+                  <li><a href="education_information.html">Информация по образовательной деятельности</a></li>
+                  <li><a href="classes.html">Классы</a></li>
+                  <li><a href="prolonged_day_groups.html">Группы продленного дня</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Аттестация</a>
+                <ul class="dropdown-menu">
+                  <li><a href="ege.html">Государственная итоговая аттестация (11 класс)</a></li>
+                  <li><a href="oge.html">Государственная итоговая аттестация (9 класс)</a></li>
+                </ul>
+              </li>
+              <li><a href="pedagogical_collective.html">Коллектив</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Условия</a>
+                <ul class="dropdown-menu">
+                  <li><a href="daily.html">Режим работы</a></li>
+                  <li><a href="education_periods.html">Учебные периоды</a></li>
+                  <li><a href="bell_shedule.html">Расписание звонков</a></li>
+                  <li><a href="food.html">Питание</a></li>
+                  <li><a href="medicine.html">Охрана здоровья</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Документы</a>
+                <ul class="dropdown-menu">
+                  <li><a href="right_documents.html">Организационно-правовые документы</a></li>
+                  <li><a href="other_documents.html">Организационно-распорядительные документы</a></li>
+                  <li><a href="result_control.html">Результаты проверок</a></li>
+                  <li><a href="document_forms.html">Формы документов</a></li>
+                </ul>
+              </li>
+              <li><a href="contacts.html">Контакты</a></li>
             </ul>
           </div>
         </div>
@@ -86,7 +116,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1 class="mb0">Contact Us</h1>
+              <h1 class="mb0">Свяжитесь с нами</h1>
             </div>
           </div>
         </div>
@@ -99,42 +129,27 @@
           <div class="row">
             <div class="col-md-12">
               <div class="row probootstrap-gutter0">
-                <div class="col-md-4" id="probootstrap-sidebar">
-                  <div class="probootstrap-sidebar-inner probootstrap-overlap probootstrap-animate">
-                    <h3>Pages</h3>
-                    <ul class="probootstrap-side-menu">
-                      
-                      <li><a href="index.html">Главная</a></li>
-                      <li><a href="courses.html">Courses</a></li>
-                      <li><a href="teachers.html">Teachers</a></li>
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li class="active"><a>Contact Us</a></li>
-                    </ul>
-                  </div>
-                </div>
                 <div class="col-md-7 col-md-push-1  probootstrap-animate" id="probootstrap-content">
-                  <h2>Get In Touch</h2>
-                  <p>Contact us using the form below.</p>
+                  <h2>Задать вопрос руководителю</h2>
                   <form action="#" method="post" class="probootstrap-form">
                     <div class="form-group">
-                      <label for="name">Full Name</label>
+                      <label for="name">Ваше имя</label>
                       <input type="text" class="form-control" id="name" name="name">
                     </div>
                     <div class="form-group">
-                      <label for="email">Email</label>
+                      <label for="name">Ваша фамилия</label>
+                      <input type="text" class="form-control" id="surname" name="surname">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Ваш E-mail</label>
                       <input type="email" class="form-control" id="email" name="email">
                     </div>
                     <div class="form-group">
-                      <label for="subject">Subject</label>
-                      <input type="text" class="form-control" id="subject" name="subject">
-                    </div>
-                    <div class="form-group">
-                      <label for="message">Message</label>
+                      <label for="message">Написать сообщение</label>
                       <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
                     </div>
                     <div class="form-group">
-                      <input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="Send Message">
+                      <input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="Отправить сообщение">
                     </div>
                   </form>
                 </div>
@@ -150,20 +165,16 @@
           <div class="row">
             <div class="col-md-4">
               <div class="probootstrap-footer-widget">
-                <h3>О школе</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p>
+                <h3>Остались вопросы?</h3>
+                <p>Вы можете задать вопросы руководителю нашей образовательной организации. При публикации вопроса на сайте изложенная в нём информация, а также персональные данные заявителя, будут доступны для всеобщего прочтения.</p>
+                <p><a href="contact.html" class="btn btn-primary">Оставить заявку</a></p> 
               </div>
             </div>
             <div class="col-md-3 col-md-push-1">
               <div class="probootstrap-footer-widget">
-                <h3>Ссылки</h3>
-                <ul>
-                  <li><a href="index.html">Главная</a></li>
-                  <li><a href="#">Courses</a></li>
-                  <li><a href="#">Teachers</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
+                <h3>МАОУ</h3>
+                <h3>СОШ №6</h3>
+                <h3>ЩМР МО</h3>
               </div>
             </div>
             <div class="col-md-4">
@@ -186,7 +197,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8 text-left">
-                <p>&copy; 2019 All Rights Reserved.</p>
+                <p>&copy; 2019 МАОУ СОШ №6 ЩМР МО</p>
               </div>
               <div class="col-md-4 probootstrap-back-to-top">
                 <p><a href="#" class="js-backtotop">Наверх <i class="icon-arrow-long-up"></i></a></p>
